@@ -6,15 +6,13 @@
 #    By: mamiandr <mamiandr@student.42antananari    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/03/25 11:46:58 by mamiandr          #+#    #+#              #
-#    Updated: 2026/03/25 11:46:58 by mamiandr         ###   ########.fr        #
+#    Updated: 2026/04/07 15:17:07 by mamiandr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#!/usr/bin/env python3
-
 def input_temperature(temp_str: str) -> int:
 	try:
-		temp = int(temp_str)
+		temp: int = int(temp_str)
 		return temp
 	except Exception as e:
 		print(f"Caught input_temperature error: {e}\n")

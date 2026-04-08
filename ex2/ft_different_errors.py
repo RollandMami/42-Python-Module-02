@@ -1,16 +1,14 @@
 # **************************************************************************** #
-#																			  #
-#														 :::	  ::::::::	#
-#	ft_different_errors.py							 :+:	  :+:	:+:	#
-#													 +:+ +:+		 +:+	  #
-#	By: mamiandr <mamiandr@student.42antananari	+#+  +:+	   +#+		 #
-#												 +#+#+#+#+#+   +#+			#
-#	Created: 2026/03/25 12:46:50 by mamiandr		  #+#	#+#			  #
-#	Updated: 2026/03/25 12:46:50 by mamiandr		 ###   ########.fr		#
-#																			  #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    ft_different_errors.py                             :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mamiandr <mamiandr@student.42antananari    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2026/04/07 15:16:04 by mamiandr          #+#    #+#              #
+#    Updated: 2026/04/07 15:16:10 by mamiandr         ###   ########.fr        #
+#                                                                              #
 # **************************************************************************** #
-
-#!/usr/bin/env python3
 
 def garden_operations(operation_number: str) -> None:
 	try:
